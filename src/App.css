@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap");
+
+html {
+  padding: 0 15%;
+}
+
+body {
+  background-color: #e8ff01;
+  color: #1d222d;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.navbar {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+}
+
+hr {
+  background: #1d222d;
+  border: 0;
+  height: 1px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.app {
+  max-width: 70%;
+}
+
+.timer {
+  font-size: 16em;
+  font-weight: 400;
+}
+
+.minutes,
+.seconds {
+  height: .9em;
+  letter-spacing: -0.04em;
+  margin: 0px 20px 0px -15px;
+}
+
+.minutes-text,
+.seconds-text {
+  font-size: 0.088em;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #1d222d;
+  border-radius: 10em;
+  box-shadow: 0 0 0 0 #1d222d;
+  color: #1d222d;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+  margin: 0px 13px 0px 0px;
+  padding: 1em 2em;  
+  text-transform: lowercase;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: #E8FF01;
+  box-shadow: 1px 5px 0 0 #1d222d;
+  transform: translateY(-4px) translateX(-2px);
+}
+
+button:active {
+  box-shadow: 0 0 0 0 #1d222d;
+  transform: translateY(2px) translateX(1px);
+}
+
+.paragraph-text {
+  margin-top: 6%;
+  text-align: left;
+}
+
+footer {
+  font-size: .7em;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+footer a {
+  color: #1d222d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    padding: 0 5%;
+    transition: ease all .5s;
+  }
+
+  .app {
+    max-width: 100%;
+  }
+
+  .minutes,
+  .seconds {
+    display: flex;
+    flex-direction: row;
+    height: .8em;
+    letter-spacing: -0.04em;
+    margin-left: -15px;
+  }
+
+  .minutes-text,
+  .seconds-text {
+    font-size: 0.088em;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    margin-top: 15.9%;
+  }
+
+  .minutes-text {
+    margin-left: 3%;
+  }
+
+  .seconds-text {
+    margin-left: -0.03%;
+  }
+
+  .buttons {
+    margin-top: 80px;
+  }
+
+  .paragraph-text {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  footer {
+    font-size: .7em;
+    text-align: left;
+  }
+}
