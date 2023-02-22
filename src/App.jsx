@@ -57,10 +57,7 @@ function App() {
           <button onClick={handleReset}>Reset</button>
         </div>
         <div className="paragraph-text">
-          <p>This app is designed to help you focus on your work and increase your productivity.
-            With the Pomodoro technique, you can break your workday into focused work sessions and timed breaks.
-            Simply set the timer for the desired work session length and take a break when the timer goes off. Repeat this process until you complete your workday.
-            Stay focused and reach your goals with the Pomodoro Timer App.
+          <p>This Pomodoro timer helps you break your work into timed intervals. The 25-minute intervals are designed to optimize your concentration. Don't forget to take short 5-minute breaks inbetween!
           </p>
         </div>
         <footer className="footer">Code by Jenny Nguyen Öberg.<br /> Design credit <a href="https://dribbble.com/ruslanlatypov" target="_blank">Ruslanlatypov</a> on Dribble.</footer>
