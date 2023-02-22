@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap");
 
+/* * {
+  box-sizing: border-box;
+} */
+
 html {
-  padding: 0 15%;
+  padding: 0px 15%;
 }
 
 body {
@@ -14,7 +18,7 @@ h1 {
   font-size: 2.75em;
   font-weight: 400;
   margin: 0;
-  margin-top: 2em;
+  margin-top: 1em;
   text-align: left;
 }
 
@@ -88,18 +92,17 @@ button:active {
 }
 
 .paragraph-text {
-  margin-top: 6%;
-  text-align: left;
-}
-
-footer {
-  font-size: .7em;
-  margin-bottom: 10%;
   margin-top: 5%;
   text-align: left;
 }
 
-footer a {
+.footer {
+  font-size: .7em;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.footer a {
   color: #1d222d;
   font-weight: 600;
   text-transform: uppercase;
@@ -145,12 +148,14 @@ footer a {
   }
 
   .paragraph-text {
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: left;
   }
 
-  footer {
+  .footer {
     font-size: .7em;
+    margin-top: 10%;
+    margin-bottom: 25px;
     text-align: left;
   }
 }

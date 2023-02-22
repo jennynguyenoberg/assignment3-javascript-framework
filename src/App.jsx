@@ -57,9 +57,13 @@ function App() {
           <button onClick={handleReset}>Reset</button>
         </div>
         <div className="paragraph-text">
-          <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit. Repellendus ratione deleniti quisquam vitae quo illo alias, dignissimos sit, eaque odio ab, dolorum quos recusandae cum enim. Vero optio recusandae ullam!</p>
+          <p>This app is designed to help you focus on your work and increase your productivity.
+            With the Pomodoro technique, you can break your workday into focused work sessions and timed breaks.
+            Simply set the timer for the desired work session length and take a break when the timer goes off. Repeat this process until you complete your workday.
+            Stay focused and reach your goals with the Pomodoro Timer App.
+          </p>
         </div>
-        <footer>Code by Jenny Nguyen Öberg.<br /> Design credit <a href="https://dribbble.com/ruslanlatypov" target="_blank">Ruslanlatypov</a> on Dribble.</footer>
+        <footer className="footer">Code by Jenny Nguyen Öberg.<br /> Design credit <a href="https://dribbble.com/ruslanlatypov" target="_blank">Ruslanlatypov</a> on Dribble.</footer>
       </div>
     </>
   )
